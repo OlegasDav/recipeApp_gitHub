@@ -55,7 +55,7 @@ namespace Domain.Services
 
             var description = new RecipeDescription
             {
-                Id = recipeFull.Id,
+                //Id = recipeFull.Id,
                 Description = recipeFull.Description
             };
 
