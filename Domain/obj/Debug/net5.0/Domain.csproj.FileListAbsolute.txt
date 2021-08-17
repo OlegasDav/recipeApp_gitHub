@@ -1,0 +1,17 @@
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Contracts.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Persistence.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Contracts.pdb
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\bin\Debug\net5.0\Persistence.pdb
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.csproj.CopyComplete
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\oldav\Documents\BIT mokymai\4_NET\1_Paskaitos\Projektai\RecipeApp\Domain\obj\Debug\net5.0\Domain.pdb
