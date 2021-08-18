@@ -42,15 +42,19 @@ namespace RecipeApp
                 switch (chosenCommand)
                 {
                     case "1":
-                        Console.WriteLine("Enter order by TimeToComplete or DateCreated: ");
-                        var orderBy = Console.ReadLine();
-                        Console.WriteLine("Enter ASC or DESC: ");
-                        var orderHow = Console.ReadLine();
+                        Console.WriteLine("Enter order by: \n" +
+                            "1 - TimeToComplete \n" +
+                            "2 - DateCreated");
+                        OrderBy orderBy = (OrderBy)Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter how to order: \n" +
+                            "1 - ASC \n" +
+                            "2 - DESC");
+                        OrderHow orderHow = (OrderHow)Convert.ToInt32(Console.ReadLine());
 
                         var allRecipes = await _recipesService.GetAllAsync(new Filter 
                         {
-                            orderBy = orderBy,
-                            orderHow = orderHow
+                            OrderBy = orderBy.ToString(),
+                            OrderHow = orderHow.ToString()
                         });
 
                         foreach (var recipe in allRecipes)

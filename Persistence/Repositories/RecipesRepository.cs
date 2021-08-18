@@ -19,7 +19,7 @@ namespace Persistence.Repositories
 
         public Task<IEnumerable<ReadRecipe>> ShowAllAsync(Filter filter)
         {
-            var sql = $"SELECT {TableName}.Id, {TableName}.Name, description.Description, {TableName}.Difficulty, {TableName}.TimeToComplete, {TableName}.DateCreated FROM {TableName} JOIN description on {TableName}.Id = description.id ORDER BY {filter.orderBy} {filter.orderHow}";
+            var sql = $"SELECT {TableName}.Id, {TableName}.Name, description.Description, {TableName}.Difficulty, {TableName}.TimeToComplete, {TableName}.DateCreated FROM {TableName} JOIN description on {TableName}.Id = description.id ORDER BY {filter.OrderBy} {filter.OrderHow}";
 
             return _sqlClient.QueryAsync<ReadRecipe>(sql);
         }

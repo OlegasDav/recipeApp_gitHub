@@ -8,9 +8,9 @@ namespace Persistence.Models
 {
     public class Filter
     {
-        public string orderBy { get; set; }
+        public string OrderBy { get; set; }
 
-        public string orderHow { get; set; }
+        public string OrderHow { get; set; }
 
     }
 }

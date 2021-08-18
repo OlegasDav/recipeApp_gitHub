@@ -13,7 +13,7 @@ namespace Persistence.Repositories
 
         Task<int> AddAsync(Recipe recipe);
 
-        Task<int> EditAsync(int id, string name);
+        Task<int> EditNameAsync(int id, string name);
 
         Task<int> DeleteAsync(int id);
 
