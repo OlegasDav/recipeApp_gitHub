@@ -36,7 +36,7 @@ namespace Persistence.Repositories
             });
         }
 
-        public Task<int> EditAsync(int id, string name)
+        public Task<int> EditNameAsync(int id, string name)
         {
             var sql = $"UPDATE {TableName} SET Name = @Name WHERE Id = @Id;";
 

@@ -24,7 +24,7 @@ namespace Persistence.Repositories
             return _sqlClient.ExecuteAsync(sql, recipeDescription);
         }
 
-        public Task<int> EditAsync(int id, string description)
+        public Task<int> EditDescriptionAsync(int id, string description)
         {
             var sql = $"UPDATE {TableName} SET Description = @Description WHERE Id = @Id;";
 

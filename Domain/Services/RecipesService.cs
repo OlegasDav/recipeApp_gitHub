@@ -69,8 +69,8 @@ namespace Domain.Services
 
         public async Task<int> EditAsync(int id, string name, string description)
         {
-            var editRecipeTask = _recipesRepository.EditAsync(id, name);
-            var editDescriptionTask = _recipeDescriptionRepository.EditAsync(id, description);
+            var editRecipeTask = _recipesRepository.EditNameAsync(id, name);
+            var editDescriptionTask = _recipeDescriptionRepository.EditDescriptionAsync(id, description);
 
             await Task.WhenAll(editRecipeTask, editDescriptionTask);
 
